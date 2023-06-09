@@ -18,4 +18,4 @@ mkdir -p "$(dirname "$writefile")"
 
 touch "$writefile"
 
-echo "$searchstr" >> "$writefile"
+echo "$searchstr" > "$writefile"
